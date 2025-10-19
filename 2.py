@@ -1,16 +1,5 @@
-print("Hello, World!")
-print("Five is greater than two!")
 print("Python is fun!")
-print("Have a good day.")
-print("Learning Python is fun!")
-print("Hello World!")
-print("I am learning Python.")
-print("It is awesome!")
-print('This will also work!')
 print("Hello World!", end="")
-print("I will print on the same line.")
-print(3)
-print(358)
 print(50000)
 print(3 + 3)
 print(2 * 5)
@@ -58,12 +47,12 @@ x = "Python"
 y = "is"
 z = "awesome"
 print(x, y, z)
+
 x = 5
 y = 10
 print(x + y)
 
 x = "awesome"
-
 def myfunc():
   print("Python is " + x)
 
@@ -103,22 +92,6 @@ print(x)
 
 print(type(x)) 
 
-x = 1
-y = 35656222554887711
-z = -3255522
-
-print(type(x))
-print(type(y))
-print(type(z))
-
-x = 3+5j
-y = 5j
-z = -5j
-
-print(type(x))
-print(type(y))
-print(type(z))
-
 x = int(1)
 y = int(2.8)
 z = int("3")
@@ -144,9 +117,6 @@ print(z)
 
 print('He is called "Johnny"')
 
-a = "Hello"
-print(a)
-
 a = """Lorem ipsum dolor sit amet,
 consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
@@ -163,27 +133,14 @@ txt = "The best things in life are fre!"
 print("free" in txt)
 
 txt = "The best things in life are free!"
-print("free" in txt)
-
-txt = "The best things in life are free!"
 if "free" in txt:
   print("Yes, 'free' is present.")
-
-  txt = "The best things in life are free!"
-  print("expensive" not in txt)
-
-  txt = "The best things in life are free!"
-  if "expensive" not in txt:
-    print("No, 'expensive' is NOT present.")
 
 b = "Hello, World!"
 print(b[2:5])
 
 b = "Hello, World!"
 print(b[:5])
-
-b = "Hello, World!"
-print(b[2:])
 
 b = "Hello, World!"
 print(b[-5:-2])
